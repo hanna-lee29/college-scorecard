@@ -39,7 +39,7 @@ vars <- paste("id",
 
 all_data <- list()
 page <- 1 
-for (page in 1:1) 
+for (page in 1:70) 
   {
   url <- paste0(base_url, "api_key=", api_key, "&fields=", vars, "&page=", page, "&per_page=100")
   response <- GET(url)
