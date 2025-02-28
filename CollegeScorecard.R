@@ -33,7 +33,6 @@ vars <- paste("id",
               "latest.completion.completion_rate_less_than_4yr_150nt_pooled",
               sep = ",")
 
-
 all_data <- list()
 page <- 1
 for (page in 1:100)
