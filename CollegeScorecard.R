@@ -1,8 +1,7 @@
 library(httr)
 library(jsonlite)
 
-# api_key <- Sys.getenv("API_KEY")
-api_key <- "qWqq0Sjyjs9sJkJgr3SPt7ic53nx7UdIOw9dZriM"
+api_key <- Sys.getenv("API_KEY")
 base_url <- "https://api.data.gov/ed/collegescorecard/v1/schools?"
 
 vars <- paste("id",
